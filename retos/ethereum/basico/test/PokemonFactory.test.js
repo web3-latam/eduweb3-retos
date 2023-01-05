@@ -17,4 +17,10 @@ describe("PokemonFactory", function () {
     expect(result).to.be.equals("Welcome Pokemon Masters");
   });
 
+ /*  RETO 2 - Cuando estés listo
+ it("Should say 0", async function () {
+    let result = await pokemonFactory.amountOfPokemons();
+    expect(result).to.be.equals(0);
+  });
+  */
 });
